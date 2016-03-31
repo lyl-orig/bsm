@@ -86,7 +86,7 @@
         </tx:attributes>
     </tx:advice>
  
-   <!--  在service层添加事务管理 -->
+   <!--  在service层添加事务w管理 -->
     <aop:config>
         <aop:pointcut id="pc"
             expression="execution(public * com.luyna.service.*.*(..))" /> <!--把事务控制在Service层 -->

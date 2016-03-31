@@ -13,8 +13,9 @@
   
    <!-- <classPathEntry location="y:\\workspace\pojo\WebContent\WEB-INF\lib\ojdbc14.jar" 
         /> -->
-    <classPathEntry
-        location="C:\usr\apache-tomcat-7.0.62\webapps\jewelSales\WEB-INF\lib\mysql-connector-java-5.1.35.jar" />
+    <classPathEntry location="C:\usr\apache-tomcat-7.0.62\webapps\jewelSales\WEB-INF\lib\mysql-connector-java-5.1.35.jar" />
+
+
     <context id="mysql" targetRuntime="MyBatis3">
         <!-- 开启注释 -->
         <commentGenerator>
@@ -28,7 +29,7 @@
             password="orcl"> -->
         <jdbcConnection driverClass="com.mysql.jdbc.Driver"
             connectionURL="jdbc:mysql://localhost:3306/jewelmanagesystem" userId="root"
-            password="">
+            password="123456">
         </jdbcConnection>
 
         <!--允许数值类型转换成不同类型,否则都映射为BigDecimal -->
